@@ -21,7 +21,7 @@ part_type_shape(p2,pt_shape_sphere);
 part_type_life(p2, 40, 60);
 part_type_alpha2(p2, 1, 0);
 part_type_color2(p2, c_red, c_white);
-part_type_size(p2, 0.65, 0.65, -0.025, 0);
+part_type_size(p2, 0.3, 0.3, -0.025, 0);
 part_type_speed(p2, 4, 8, 0, 0);
 part_type_direction(p2,90,90,0,0);
 global.ptEnemyBullet = p2
