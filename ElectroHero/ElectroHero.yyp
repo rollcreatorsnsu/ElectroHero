@@ -3,6 +3,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"order":7,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
+    {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"order":11,},
     {"id":{"name":"sp_photon_2","path":"sprites/sp_photon_2/sp_photon_2.yy",},"order":2,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
