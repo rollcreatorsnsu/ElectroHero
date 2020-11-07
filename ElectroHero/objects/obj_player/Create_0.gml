@@ -1,4 +1,3 @@
-mag = 10
 canShoot = true
 electrones = [instance_create_layer(x, y, "Player", obj_electron),
 	instance_create_layer(x, y, "Player", obj_electron),
