@@ -34,6 +34,7 @@ part_type_color2(p3, c_yellow, c_white);
 part_type_size(p3, 0.1, 0.4, -0.025, 0);
 part_type_speed(p3, 4, 8, 0, 0);
 part_type_direction(p3,0,360,0,0);
+global.ptDamage = p3
 
 //При смерте врага протона
 p4 = part_type_create();
@@ -44,6 +45,7 @@ part_type_color2(p4, c_red, c_red);
 part_type_size(p4, 2, 1, 0, 0);
 part_type_speed(p4, 4, 8, 0, 0);
 part_type_direction(p4,0,360,0,0);
+global.ptProtonDeath = p4
 
 //При смерте врага нейтрона
 p5 = part_type_create();
@@ -54,6 +56,7 @@ part_type_color2(p5, c_gray, c_gray);
 part_type_size(p5, 2, 1, 0, 0);
 part_type_speed(p5, 4, 8, 0, 0);
 part_type_direction(p5,0,360,0,0);
+global.ptNeutronDeath = p5
 
 //При смерте врага нейтрона
 p6 = part_type_create();
@@ -64,4 +67,5 @@ part_type_color2(p6, c_purple, c_purple);
 part_type_size(p6, 2, 1, 0, 0);
 part_type_speed(p6, 4, 8, 0, 0);
 part_type_direction(p6,0,360,0,0);
+global.ptAntielectronDeath = p6
 #endregion

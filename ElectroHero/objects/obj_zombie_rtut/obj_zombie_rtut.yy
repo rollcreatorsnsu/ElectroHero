@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_enemy_prot",
-    "path": "sprites/sp_enemy_prot/sp_enemy_prot.yy",
+    "name": "sp_netron",
+    "path": "sprites/sp_netron/sp_netron.yy",
   },
   "solid": false,
   "visible": true,
