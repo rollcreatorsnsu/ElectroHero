@@ -2,11 +2,14 @@
   "resources": [
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"order":7,},
+    {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
+    {"id":{"name":"sp_photon_2","path":"sprites/sp_photon_2/sp_photon_2.yy",},"order":2,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"order":5,},
     {"id":{"name":"obj_enemy_bullet_smart","path":"objects/obj_enemy_bullet_smart/obj_enemy_bullet_smart.yy",},"order":8,},
     {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"order":2,},
+    {"id":{"name":"sp_cosmos_sky","path":"sprites/sp_cosmos_sky/sp_cosmos_sky.yy",},"order":1,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":1,},
     {"id":{"name":"obj_ammo","path":"objects/obj_ammo/obj_ammo.yy",},"order":10,},
     {"id":{"name":"obj_repair","path":"objects/obj_repair/obj_repair.yy",},"order":9,},
@@ -16,6 +19,8 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
