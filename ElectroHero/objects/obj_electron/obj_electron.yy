@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "msk_electron_field",
+    "path": "sprites/msk_electron_field/msk_electron_field.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
