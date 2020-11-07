@@ -1,3 +1,3 @@
 if (particle_start) {
-	part_particles_create(partSystem, x, y, global.ptBasic, 5);
+	part_particles_create(partSystem, x, y, global.ptPlayerBullet, 5);
 }

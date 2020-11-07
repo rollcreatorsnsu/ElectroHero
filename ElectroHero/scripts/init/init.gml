@@ -13,7 +13,7 @@ part_type_alpha2(p1, 1, 0);
 part_type_size(p1, 0.65, 0.65, -0.025, 0);
 part_type_speed(p1, 4, 8, 0, 0);
 part_type_direction(p1,270,270,0,0);
-global.ptBasic = p1
+global.ptPlayerBullet = p1
 
 p2 = part_type_create();
 part_type_shape(p2,pt_shape_sphere);
@@ -24,5 +24,7 @@ part_type_color2(p2, c_red, c_white);
 part_type_size(p2, 0.65, 0.65, -0.025, 0);
 part_type_speed(p2, 4, 8, 0, 0);
 part_type_direction(p2,90,90,0,0);
+
+global.ptEnemyBullet = p2
 
 #endregion

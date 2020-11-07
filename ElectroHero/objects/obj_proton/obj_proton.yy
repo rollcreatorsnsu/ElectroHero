@@ -1,15 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_enemy_prot",
+    "path": "sprites/sp_enemy_prot/sp_enemy_prot.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sp_photon_2",
-    "path": "sprites/sp_photon_2/sp_photon_2.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "prt_bullet",
-    "path": "objects/prt_bullet/prt_bullet.yy",
+    "name": "prt_enemy",
+    "path": "objects/prt_enemy/prt_enemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +31,7 @@
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_bullet",
+  "name": "obj_proton",
   "tags": [],
   "resourceType": "GMObject",
 }

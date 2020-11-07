@@ -4,3 +4,6 @@ if (instance_exists(obj_player)) {
 } else {
 	vspeed = 7
 }
+
+partSystem = part_system_create()
+part_system_layer(partSystem, "Bullets")
