@@ -68,4 +68,7 @@ part_type_size(p6, 2, 1, 0, 0);
 part_type_speed(p6, 4, 8, 0, 0);
 part_type_direction(p6,0,360,0,0);
 global.ptAntielectronDeath = p6
+
+global.partSystem = part_system_create()
+part_system_layer(global.partSystem, "Bullets")
 #endregion
