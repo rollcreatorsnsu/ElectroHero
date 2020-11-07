@@ -1,0 +1,1 @@
+instance_create_depth(0, room_height, 0, obj_HUD)
