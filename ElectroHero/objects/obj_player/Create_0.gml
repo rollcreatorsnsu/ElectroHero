@@ -28,3 +28,5 @@ electrones[4].rotate_speed = 3
 electrones[5].distance_from_player = 60
 electrones[5].current_angle = degtorad(330)
 electrones[5].rotate_speed = 3
+
+flash_time = -100000

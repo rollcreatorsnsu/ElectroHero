@@ -5,3 +5,4 @@ if (hp <= 0) {
 	score += points
 	instance_destroy()
 }
+flash_time = current_time
