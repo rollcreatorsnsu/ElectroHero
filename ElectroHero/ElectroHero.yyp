@@ -14,6 +14,7 @@
     {"id":{"name":"sp_cosmos_sky","path":"sprites/sp_cosmos_sky/sp_cosmos_sky.yy",},"order":1,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":1,},
     {"id":{"name":"obj_ammo","path":"objects/obj_ammo/obj_ammo.yy",},"order":10,},
+    {"id":{"name":"sp_enemy_prot","path":"sprites/sp_enemy_prot/sp_enemy_prot.yy",},"order":4,},
     {"id":{"name":"obj_repair","path":"objects/obj_repair/obj_repair.yy",},"order":9,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
