@@ -1,1 +1,7 @@
-vspeed = 4
+hp = undefined
+q = undefined
+points = undefined
+
+enum Q {
+	POSITIVE, NEGATIVE, NEUTRAL
+}
