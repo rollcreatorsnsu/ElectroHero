@@ -10,3 +10,4 @@ if (x > room_width / 2) {
 	direction = point_direction(x, y, 0, y + 3 * sprite_height)
 }
 alarm_set(0, room_speed)
+ptDeath = global.ptNeutronDeath
