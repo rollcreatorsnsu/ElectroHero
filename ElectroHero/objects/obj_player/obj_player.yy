@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_photon_2",
-    "path": "sprites/sp_photon_2/sp_photon_2.yy",
+    "name": "sp_atom",
+    "path": "sprites/sp_atom/sp_atom.yy",
   },
   "solid": false,
   "visible": true,

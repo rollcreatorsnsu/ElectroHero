@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_photon_2",
+    "path": "sprites/sp_photon_2/sp_photon_2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

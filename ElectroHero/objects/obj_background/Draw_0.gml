@@ -1,6 +1,9 @@
-if (shift > room_height) {
+if (shift > height) {
 	shift = 0
 }
-draw_sprite_ext(sp_cosmos_sky, 0, 0, shift, room_width / width, room_height / height, 0, c_white, 1)
-draw_sprite_ext(sp_cosmos_sky, 0, 0, shift - room_height, room_width / width, room_height / height, 0, c_white, 1)
+for (i = 0; i < room_width; i += width) {
+	for (j = -height; j < room_height; j += height) {
+		draw_sprite(sp_cosmos_sky, 0, i, j + shift);
+	}
+}
 shift++
