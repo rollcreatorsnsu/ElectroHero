@@ -1,3 +1,3 @@
-if (y <= room_height) {
-	y += 2.5 * mag
+if (y <= room_height - sprite_height * 0.5) {
+	y += mag
 }
