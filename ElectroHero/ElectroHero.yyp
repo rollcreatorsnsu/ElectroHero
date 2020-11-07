@@ -8,7 +8,9 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"order":5,},
     {"id":{"name":"obj_vampire_azot_bullet","path":"objects/obj_vampire_azot_bullet/obj_vampire_azot_bullet.yy",},"order":2,},
+    {"id":{"name":"obj_zombie_rtut_bullet","path":"objects/obj_zombie_rtut_bullet/obj_zombie_rtut_bullet.yy",},"order":7,},
     {"id":{"name":"obj_player_bullet","path":"objects/obj_player_bullet/obj_player_bullet.yy",},"order":2,},
+    {"id":{"name":"obj_zombie_rtut","path":"objects/obj_zombie_rtut/obj_zombie_rtut.yy",},"order":6,},
     {"id":{"name":"sp_atom","path":"sprites/sp_atom/sp_atom.yy",},"order":3,},
     {"id":{"name":"sp_cosmos_sky","path":"sprites/sp_cosmos_sky/sp_cosmos_sky.yy",},"order":1,},
     {"id":{"name":"obj_vampire_azot","path":"objects/obj_vampire_azot/obj_vampire_azot.yy",},"order":3,},
@@ -20,6 +22,7 @@
     {"id":{"name":"sp_electron","path":"sprites/sp_electron/sp_electron.yy",},"order":5,},
     {"id":{"name":"obj_repair","path":"objects/obj_repair/obj_repair.yy",},"order":9,},
     {"id":{"name":"prt_enemy","path":"objects/prt_enemy/prt_enemy.yy",},"order":0,},
+    {"id":{"name":"obj_mouse_ferrum","path":"objects/obj_mouse_ferrum/obj_mouse_ferrum.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
