@@ -1,3 +1,3 @@
-if (x >= 0) {
-	x -= 3 * mag
+if (x >= sprite_width * 0.5) {
+	x -= mag
 }
