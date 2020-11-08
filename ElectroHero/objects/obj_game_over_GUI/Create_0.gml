@@ -1,4 +1,9 @@
 instance_deactivate_all(1)
+if (global.kek_sound) {
+//	audio_play_sound(sound_death_en, 1, false)
+} else {
+	audio_play_sound(sound_norm_game_over, 1, false)
+}
 back = instance_create_layer(0, 0, "Back", obj_background)
 again = instance_create_layer(x - 108, y + 64, "GUI_Front", obj_again)
 ex = instance_create_layer(x + 108, y + 64, "GUI_Front", obj_exit_game_over)

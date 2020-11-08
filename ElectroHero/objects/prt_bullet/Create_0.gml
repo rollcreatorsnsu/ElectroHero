@@ -3,4 +3,3 @@ if (global.kek_sound) {
 } else {
 	audio_play_sound(sond_norm_shot, 1, false)
 }
-damage = undefined
