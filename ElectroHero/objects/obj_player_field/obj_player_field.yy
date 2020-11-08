@@ -1,13 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_postive_field",
+    "path": "sprites/sp_postive_field/sp_postive_field.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "msk_electron_field",
-    "path": "sprites/msk_electron_field/msk_electron_field.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "prt_field",
+    "path": "objects/prt_field/prt_field.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,8 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_player_field","path":"objects/obj_player_field/obj_player_field.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"prt_enemy","path":"objects/prt_enemy/prt_enemy.yy",},"parent":{"name":"obj_player_field","path":"objects/obj_player_field/obj_player_field.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_player_field","path":"objects/obj_player_field/obj_player_field.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

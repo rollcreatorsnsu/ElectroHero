@@ -4,5 +4,5 @@ while (true) {
 		break
 	}
 }
-electrones[cur_electron].isActive = true
+electrones[cur_electron].field.isActive = true
 field.isActive = true

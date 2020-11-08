@@ -1,0 +1,2 @@
+q = undefined
+isActive = false

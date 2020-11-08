@@ -1,2 +1,2 @@
-isActive = false
+event_inherited()
 q = Q.POSITIVE
