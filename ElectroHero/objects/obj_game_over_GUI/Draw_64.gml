@@ -1,0 +1,7 @@
+draw_self()
+draw_set_valign(fa_top)
+draw_set_halign(fa_center)
+draw_set_font(global.play_font)
+draw_text(x, y - 144, "GAME OVER")
+draw_set_font(global.exit_font)
+draw_text(x, y - 46, "SCORE: " + string(score))
