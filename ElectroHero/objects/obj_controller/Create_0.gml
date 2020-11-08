@@ -6,7 +6,7 @@ spawn_counter = 0
 alarm_set(0, room_speed)
 
 spawns = [
-	[], [], [], [], [], [], [], [obj_mouse_ferrum], [], [obj_mouse_ferrum],
+	[], [], [], [], [], [obj_mouse_ferrum], [], [obj_mouse_ferrum],
 	[obj_mouse_ferrum], [obj_mouse_ferrum], [obj_mouse_ferrum], [obj_mouse_ferrum], [obj_mouse_ferrum],
 	[obj_mouse_ferrum, obj_mouse_ferrum, obj_vampire_azot, obj_zombie_rtut], [obj_mouse_ferrum],
 	[obj_mouse_ferrum, obj_mouse_ferrum], [obj_mouse_ferrum], [obj_mouse_ferrum, obj_mouse_ferrum],

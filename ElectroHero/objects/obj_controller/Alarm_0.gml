@@ -1,5 +1,5 @@
 spawn_counter++
-if (spawn_counter == 60) {
+if (spawn_counter == 58) {
 	random_spawn = true
 	spawn_counter = 0
 }
