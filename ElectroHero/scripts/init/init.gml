@@ -3,6 +3,7 @@
 gml_pragma("global", "init()")
 
 randomize()
+global.magCoef = 24242
 
 #region Particle Types
 
