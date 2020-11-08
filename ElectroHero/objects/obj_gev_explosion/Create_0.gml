@@ -11,4 +11,3 @@ for (i = 0; i < ds_list_size(enemies); i++) {
 	}
 }
 ds_list_destroy(enemies)
-instance_destroy()
