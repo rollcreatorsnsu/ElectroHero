@@ -1,4 +1,8 @@
 event_inherited();
 if (isExplode) {
-	other.isExploded = true
+	if (other.isExploded == false) {
+		exploded[exploded_count] = other
+		exploded_count++
+		other.isExploded = true
+	}
 }
