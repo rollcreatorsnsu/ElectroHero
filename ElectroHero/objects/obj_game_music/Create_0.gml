@@ -1,3 +1,4 @@
+audio_stop_all()
 if (global.kek_sound) {
 	audio_play_sound(mus_game_troll, 0, true)
 } else {

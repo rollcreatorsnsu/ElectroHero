@@ -9,7 +9,7 @@ if (isExploded || (isMagnified && q != Q.NEUTRAL && (current_time - noMagnified_
 	}
 	move_outside_all(dir, min(magPow, point_distance(x, y, magX, magY)))
 	if (isExploded) {
-		move_outside_all(dir, point_distance(x, y, magX, magY))
+		move_outside_all(dir, min(10, point_distance(x, y, magX, magY)))
 		direction = 0
 		speed = 0
 		return 0
