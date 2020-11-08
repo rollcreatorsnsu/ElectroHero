@@ -9,3 +9,5 @@ if (canShoot) {
 	instance_create_layer(x, y, "Bullets", obj_zombie_rtut_bullet)
 	alarm_set(0, room_speed)
 }
+
+part_particles_create(global.partSystem, x, y, global.ptNeutronStep, 5);
