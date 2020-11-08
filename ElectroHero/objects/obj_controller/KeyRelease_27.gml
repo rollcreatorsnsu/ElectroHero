@@ -1,1 +1,2 @@
-game_end()
+instance_deactivate_all(1)
+instance_create_layer(room_width / 2, room_height / 2, "GUI", obj_pause_GUI)

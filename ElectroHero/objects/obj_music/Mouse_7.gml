@@ -1,8 +1,8 @@
-if (volume == 1) {
-	volume = 0
+if (global.volume == 1) {
+	global.volume = 0
 	sprite_index = sp_icon_music_off
-} else if (volume == 0) {
-	volume = 1
+} else if (global.volume == 0) {
+	global.volume = 1
 	sprite_index = sp_ui_icon_music_on
 }
-audio_master_gain(volume)
+audio_master_gain(global.volume)
