@@ -1,4 +1,4 @@
-if (isMagnified && other.isMagnified) {
+if (isMagnified && other.isMagnified && (current_time - noMagnified_time > 500)) {
 	hp--
 	if (hp <= 0) {
 		score += points

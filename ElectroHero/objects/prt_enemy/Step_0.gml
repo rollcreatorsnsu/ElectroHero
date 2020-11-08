@@ -1,4 +1,4 @@
-if (isMagnified && q != Q.NEUTRAL && (current_time - noMagnified_time > room_speed * 0.5)) {
+if (isMagnified && q != Q.NEUTRAL && (current_time - noMagnified_time > 500)) {
 	if (magPow < minimumMagPow) {
 		isMagnified = false
 	}
