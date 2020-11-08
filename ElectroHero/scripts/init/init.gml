@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 gml_pragma("global", "init()")
 
+randomize()
+
 #region Particle Types
 
 p1 = part_type_create();

@@ -5,3 +5,4 @@ while (true) {
 	}
 }
 electrones[cur_electron].isActive = true
+field.isActive = true
