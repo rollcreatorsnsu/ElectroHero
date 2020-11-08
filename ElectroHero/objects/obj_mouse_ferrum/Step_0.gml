@@ -10,6 +10,6 @@ if (center_x < sprite_width * 0.5) {
 	center_x = room_width - sprite_width * 0.5
 }
 
-x += 3 * room_speed * sin(step_index)
+x += room_speed * sin(step_index)
 
 step_index += degtorad(3)
