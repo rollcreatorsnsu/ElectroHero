@@ -47,6 +47,7 @@
     {"id":{"name":"sp_netron","path":"sprites/sp_netron/sp_netron.yy",},"order":2,},
     {"id":{"name":"sp_antielect_49","path":"sprites/sp_antielect_49/sp_antielect_49.yy",},"order":0,},
     {"id":{"name":"obj_zombie_rtut","path":"objects/obj_zombie_rtut/obj_zombie_rtut.yy",},"order":6,},
+    {"id":{"name":"sound_expl","path":"sounds/sound_expl/sound_expl.yy",},"order":6,},
     {"id":{"name":"sp_ui_windo_exit_in_menu","path":"sprites/sp_ui_windo_exit_in_menu/sp_ui_windo_exit_in_menu.yy",},"order":4,},
     {"id":{"name":"sp_icon_triple90","path":"sprites/sp_icon_triple90/sp_icon_triple90.yy",},"order":3,},
     {"id":{"name":"sp_icon_waves","path":"sprites/sp_icon_waves/sp_icon_waves.yy",},"order":5,},
