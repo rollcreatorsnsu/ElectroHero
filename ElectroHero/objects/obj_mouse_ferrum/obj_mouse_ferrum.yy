@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_antielect",
-    "path": "sprites/sp_antielect/sp_antielect.yy",
+    "name": "sp_antielect_49",
+    "path": "sprites/sp_antielect_49/sp_antielect_49.yy",
   },
   "solid": false,
   "visible": true,
