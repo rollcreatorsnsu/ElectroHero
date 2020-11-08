@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "main_menu",
-    "path": "folders/Objects/ui/main_menu.yy",
+    "name": "pause_menu",
+    "path": "folders/Objects/ui/pause_menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_music",
