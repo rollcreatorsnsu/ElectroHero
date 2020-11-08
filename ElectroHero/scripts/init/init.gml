@@ -78,10 +78,11 @@ global.partSystem = part_system_create()
 //След для нейтрона
 p7 = part_type_create();
 part_type_shape(p7, pt_shape_sphere);
-part_type_life(p7, 80, 80);
+part_type_life(p7, 50, 50);
 part_type_alpha2(p7, 1, 0);
-part_type_color_rgb(p7, 100, 100, 86, 86, 153, 153);
-part_type_size(p7, 1, 1, 0.01, 0);
+part_type_color_rgb(p7, 117, 117, 117, 117, 117, 117);
+part_type_size(p7, 0.5, 0.5, 0.01, 0);
+part_type_size(p7, 0.5, 0.5, 0.01, 0);
 global.ptNeutronStep = p7
 
 
