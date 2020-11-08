@@ -15,3 +15,5 @@ if (canSmoke) {
 	part_particles_create(global.partSystem, x, y, global.ptNeutronStep, 5);
 	alarm_set(1, 7)
 }
+
+event_inherited()
