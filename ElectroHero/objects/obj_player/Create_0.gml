@@ -5,6 +5,9 @@ electrones = [instance_create_layer(x, y, "Player", obj_electron),
 	instance_create_layer(x, y, "Player", obj_electron),
 	instance_create_layer(x, y, "Player", obj_electron),
 	instance_create_layer(x, y, "Player", obj_electron)]
+
+electrones_capacity = 6
+
 electrones[0].distance_from_player = 30
 electrones[0].current_angle = degtorad(180)
 electrones[0].rotate_speed = 360 - 6
