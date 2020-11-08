@@ -10,7 +10,7 @@ if (canShoot) {
 	alarm_set(0, room_speed)
 }
 
-if (canSmoke) {
+if (canSmoke && !isExploded) {
 	canSmoke = false;
 	part_particles_create(global.partSystem, x, y, global.ptNeutronStep, 5);
 	alarm_set(1, 7)
