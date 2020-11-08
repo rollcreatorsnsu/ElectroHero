@@ -1,7 +1,7 @@
 if (other.electrones_capacity < 6) {
 	other.electrones_capacity++
 	electron = instance_create_layer(other.x, other.y, "Player", obj_electron)
-	switch (electrones_capacity) {
+	switch (other.electrones_capacity) {
 		case (1): {
 			electron.distance_from_player = 30
 			electron.current_angle = degtorad(180)
