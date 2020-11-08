@@ -6,8 +6,9 @@ for (i = 0; i < ds_list_size(enemies); i++) {
 	if (enemy.hp <= 0) {
 		score += enemy.points
 		instance_destroy(enemy)
+	} else {
+		enemy.flash_time = current_time
 	}
-	enemy.flash_time = current_time
 }
 ds_list_destroy(enemies)
 instance_destroy()

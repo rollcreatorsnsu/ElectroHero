@@ -33,6 +33,7 @@
     {"id":{"name":"sp_wave","path":"sprites/sp_wave/sp_wave.yy",},"order":3,},
     {"id":{"name":"sp_cosmos_sky","path":"sprites/sp_cosmos_sky/sp_cosmos_sky.yy",},"order":1,},
     {"id":{"name":"create_equipment","path":"scripts/create_equipment/create_equipment.yy",},"order":1,},
+    {"id":{"name":"obj_plus_one_electron","path":"objects/obj_plus_one_electron/obj_plus_one_electron.yy",},"order":8,},
     {"id":{"name":"sp_postive_field","path":"sprites/sp_postive_field/sp_postive_field.yy",},"order":0,},
     {"id":{"name":"sp_icon_gav","path":"sprites/sp_icon_gav/sp_icon_gav.yy",},"order":4,},
     {"id":{"name":"obj_gev_explosion","path":"objects/obj_gev_explosion/obj_gev_explosion.yy",},"order":10,},
