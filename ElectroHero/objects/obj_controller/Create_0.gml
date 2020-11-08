@@ -22,3 +22,5 @@ spawns = [
 	[obj_mouse_ferrum, obj_zombie_rtut], [obj_mouse_ferrum], [], [obj_mouse_ferrum],
 	[obj_mouse_ferrum, obj_zombie_rtut], [], [obj_mouse_ferrum], [], [obj_mouse_ferrum], []
 	]
+	
+random_spawn = false
