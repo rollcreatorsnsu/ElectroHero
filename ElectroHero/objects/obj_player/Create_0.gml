@@ -30,3 +30,5 @@ electrones[5].current_angle = degtorad(330)
 electrones[5].rotate_speed = 2
 
 flash_time = -100000
+
+field = instance_create_layer(x, y, "Bullets", obj_player_field)

@@ -19,6 +19,7 @@
     {"id":{"name":"obj_electron","path":"objects/obj_electron/obj_electron.yy",},"order":2,},
     {"id":{"name":"sp_cosmos_sky","path":"sprites/sp_cosmos_sky/sp_cosmos_sky.yy",},"order":1,},
     {"id":{"name":"obj_vampire_azot","path":"objects/obj_vampire_azot/obj_vampire_azot.yy",},"order":3,},
+    {"id":{"name":"obj_player_field","path":"objects/obj_player_field/obj_player_field.yy",},"order":3,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":1,},
     {"id":{"name":"sp_enemy_prot","path":"sprites/sp_enemy_prot/sp_enemy_prot.yy",},"order":4,},
     {"id":{"name":"sp_atom_without_electrons","path":"sprites/sp_atom_without_electrons/sp_atom_without_electrons.yy",},"order":6,},

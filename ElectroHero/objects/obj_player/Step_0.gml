@@ -33,3 +33,5 @@ if (canShoot) {
 	canShoot = false
 	alarm_set(0, 15)
 }
+field.x = x
+field.y = y
