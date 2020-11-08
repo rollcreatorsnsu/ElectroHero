@@ -29,9 +29,55 @@ if (y < sprite_height * 0.5) {
 	y = room_height - sprite_height * 0.5
 }
 if (canShoot) {
-	instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
 	canShoot = false
-	alarm_set(0, 15)
+	switch(current_gun) {
+		case (Gun.DEFAULT): {
+			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			alarm_set(0, 15)
+			break
+		}
+		case (Gun.DOUBLE): {
+			instance_create_layer(x - 8, y - 16, "Bullets", obj_player_bullet)
+			instance_create_layer(x + 8, y - 16, "Bullets", obj_player_bullet)
+			alarm_set(0, 15)
+			break
+		}
+		case (Gun.FAST): {
+			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet.direction = 45
+			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet.direction = 135
+			alarm_set(0, 15)
+			break
+		}
+		case (Gun.SIDES): {
+			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet.direction = 0
+			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet.direction = 180
+			alarm_set(0, 15)
+			break
+		}
+		case (Gun.WAVES): {
+			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet_wave)
+			alarm_set(0, room_speed / 3)
+			break
+		}
+		case (Gun.GEV): {
+			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet_gev)
+			alarm_set(0, room_speed * 0.5)
+			break
+		}
+		case (Gun.STAR): {
+			instance_create_layer(x - 8, y - 16, "Bullets", obj_player_bullet_star)
+			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet_star)
+			instance_create_layer(x + 8, y - 16, "Bullets", obj_player_bullet_star)
+			alarm_set(0, 15)
+			break
+		}
+	}
 }
 field.x = x
 field.y = y
