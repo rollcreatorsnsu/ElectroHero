@@ -86,6 +86,5 @@ part_type_size(p7, 0.5, 0.5, 0.01, 0);
 part_type_size(p7, 0.5, 0.5, 0.01, 0);
 global.ptNeutronStep = p7
 
-
 part_system_layer(global.partSystem, "Bullets")
 #endregion
