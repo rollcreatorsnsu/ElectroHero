@@ -1,0 +1,1 @@
+canSmoke = true
