@@ -39,5 +39,6 @@ if (other.electrones_capacity < 6) {
 			break
 		}
 	}
+	other.electrones[other.electrones_capacity - 1] = electron
 }
 event_inherited()
