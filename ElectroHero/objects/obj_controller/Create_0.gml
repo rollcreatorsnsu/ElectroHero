@@ -20,5 +20,5 @@ spawns = [
 	[obj_mouse_ferrum, obj_zombie_rtut, obj_zombie_rtut], [obj_mouse_ferrum],
 	[obj_mouse_ferrum, obj_vampire_azot], [obj_mouse_ferrum], [obj_mouse_ferrum],
 	[obj_mouse_ferrum, obj_zombie_rtut], [obj_mouse_ferrum], [], [obj_mouse_ferrum],
-	[obj_mouse_ferrum, obj_zombie_rtut], [], [obj_mouse_ferrum], [], [obj_mouse_ferrum]
+	[obj_mouse_ferrum, obj_zombie_rtut], [], [obj_mouse_ferrum], [], [obj_mouse_ferrum], []
 	]
