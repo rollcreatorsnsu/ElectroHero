@@ -1,15 +1,15 @@
 xdir = 0
 ydir = 0
-if (keyboard_check(vk_left)) {
+if ((keyboard_check(vk_left) || keyboard_check(ord("A"))) && x > sprite_width * 0.5) {
 	xdir -= 1
 }
-if (keyboard_check(vk_up)) {
+if ((keyboard_check(vk_up) || keyboard_check(ord("W"))) && y > sprite_height * 0.5) {
 	ydir -= 1
 }
-if (keyboard_check(vk_right)) {
+if ((keyboard_check(vk_right) || keyboard_check(ord("D"))) && x < room_width - sprite_width * 0.5) {
 	xdir += 1
 }
-if (keyboard_check(vk_down)) {
+if ((keyboard_check(vk_down) || keyboard_check(ord("S"))) && y < room_height - sprite_height * 0.5) {
 	ydir += 1
 }
 if (xdir != 0 || ydir != 0) {
@@ -28,7 +28,6 @@ if (y < sprite_height * 0.5) {
 } else if (y > room_height - sprite_height * 0.5) {
 	y = room_height - sprite_height * 0.5
 }
-
 if (canShoot) {
 	instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
 	canShoot = false
