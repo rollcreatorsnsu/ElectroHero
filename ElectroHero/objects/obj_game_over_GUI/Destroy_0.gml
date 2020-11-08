@@ -1,3 +1,6 @@
 instance_destroy(again)
 instance_destroy(ex)
 instance_destroy(back)
+instance_destroy(el1)
+instance_destroy(el2)
+instance_destroy(el3)
