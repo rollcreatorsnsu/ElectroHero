@@ -1,5 +1,8 @@
 current_angle += degtorad(rotate_speed)
-if (field.isActive) {
+if (field.isExplode) {
+	dst_x = field.explodeX
+	dst_y = field.explodeY
+} else if (field.isActive) {
 	dst_x = mouse_x
 	dst_y = mouse_y
 } else {
@@ -11,6 +14,9 @@ if (dist <= 12 || (speed == 0 && !field.isActive && dist < sprite_width)) {
 	speed = 0
 	x = dst_x
 	y = dst_y
+	if (field.isExplode && alarm_get(0) == -1) {
+		alarm_set(0, 2 * room_speed)
+	}
 } else {
 	speed = 12
 	direction = point_direction(x, y, dst_x, dst_y)
