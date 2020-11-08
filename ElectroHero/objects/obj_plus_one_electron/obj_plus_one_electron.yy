@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_icon_add_elec",
+    "path": "sprites/sp_icon_add_elec/sp_icon_add_elec.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
