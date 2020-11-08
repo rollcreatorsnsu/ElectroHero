@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_icon_conus",
+    "path": "sprites/sp_icon_conus/sp_icon_conus.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -1,4 +1,4 @@
 event_inherited();
 speed = 10
-direction = 90
+direction = 0
 damage = 2

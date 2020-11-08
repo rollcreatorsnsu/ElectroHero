@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_icon_triple90",
+    "path": "sprites/sp_icon_triple90/sp_icon_triple90.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

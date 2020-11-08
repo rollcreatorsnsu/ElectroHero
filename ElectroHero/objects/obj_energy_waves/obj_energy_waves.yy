@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_icon_waves",
+    "path": "sprites/sp_icon_waves/sp_icon_waves.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_photon_2",
-    "path": "sprites/sp_photon_2/sp_photon_2.yy",
+    "name": "sp_gav",
+    "path": "sprites/sp_gav/sp_gav.yy",
   },
   "solid": false,
   "visible": true,

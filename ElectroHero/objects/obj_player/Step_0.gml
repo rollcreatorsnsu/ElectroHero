@@ -44,24 +44,26 @@ if (canShoot) {
 		}
 		case (Gun.FAST): {
 			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
-			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet = instance_create_layer(x + 16, y - 16, "Bullets", obj_player_bullet)
 			bullet.direction = 45
-			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet = instance_create_layer(x - 16, y - 16, "Bullets", obj_player_bullet)
 			bullet.direction = 135
 			alarm_set(0, 15)
 			break
 		}
 		case (Gun.SIDES): {
 			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
-			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet = instance_create_layer(x + 16, y, "Bullets", obj_player_bullet)
 			bullet.direction = 0
-			bullet = instance_create_layer(x, y - 16, "Bullets", obj_player_bullet)
+			bullet = instance_create_layer(x - 16, y, "Bullets", obj_player_bullet)
 			bullet.direction = 180
 			alarm_set(0, 15)
 			break
 		}
 		case (Gun.WAVES): {
-			instance_create_layer(x, y - 16, "Bullets", obj_player_bullet_wave)
+			instance_create_layer(x + 16, y, "Bullets", obj_player_bullet_wave)
+			bullet = instance_create_layer(x - 16, y, "Bullets", obj_player_bullet_wave)
+			bullet.direction = 180
 			alarm_set(0, room_speed / 3)
 			break
 		}

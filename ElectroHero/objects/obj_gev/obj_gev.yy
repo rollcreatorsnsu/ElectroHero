@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_icon_gav",
+    "path": "sprites/sp_icon_gav/sp_icon_gav.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

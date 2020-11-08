@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sp_icon_d_attack",
+    "path": "sprites/sp_icon_d_attack/sp_icon_d_attack.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
