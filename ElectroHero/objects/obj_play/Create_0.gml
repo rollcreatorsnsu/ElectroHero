@@ -9,4 +9,4 @@ el2.current_angle = 120
 el3 = instance_create_layer(x, y, "GUI_Front", obj_ui_electron)
 el3.distance_from_player = 130
 el3.rotate_speed = 1
-el3.current_angle = 215
+el3.current_angle = 225
