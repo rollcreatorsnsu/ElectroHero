@@ -15,7 +15,12 @@ if (dist <= 12 || (speed == 0 && !field.isActive && dist < sprite_width)) {
 	x = dst_x
 	y = dst_y
 	if (field.isExplode && alarm_get(0) == -1) {
-		alarm_set(0, 2 * room_speed)
+		if (global.kek_sound) {
+			audio_play_sound(sound_troll_burst, 1, false)
+		} else {
+			audio_play_sound(sound_expl, 1, false)	
+		}
+		alarm_set(0, 1.5 * room_speed)
 	}
 } else {
 	speed = 12
