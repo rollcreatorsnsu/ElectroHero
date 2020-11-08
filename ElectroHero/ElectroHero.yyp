@@ -96,6 +96,7 @@
     {"id":{"name":"prt_bullet","path":"objects/prt_bullet/prt_bullet.yy",},"order":4,},
     {"id":{"name":"sp_electron","path":"sprites/sp_electron/sp_electron.yy",},"order":5,},
     {"id":{"name":"sound_norm_nit_en","path":"sounds/sound_norm_nit_en/sound_norm_nit_en.yy",},"order":7,},
+    {"id":{"name":"sp_logo","path":"sprites/sp_logo/sp_logo.yy",},"order":20,},
     {"id":{"name":"obj_plus_one_health","path":"objects/obj_plus_one_health/obj_plus_one_health.yy",},"order":1,},
     {"id":{"name":"sound_troll_death","path":"sounds/sound_troll_death/sound_troll_death.yy",},"order":7,},
     {"id":{"name":"mus_troll_menu","path":"sounds/mus_troll_menu/mus_troll_menu.yy",},"order":0,},
