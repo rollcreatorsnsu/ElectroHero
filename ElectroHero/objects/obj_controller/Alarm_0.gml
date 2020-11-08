@@ -1,13 +1,13 @@
 spawn_counter++
 if (spawn_counter == 58) {
-	random_spawn = true
+	random_spawn++
 	spawn_counter = 0
 }
 spawn = spawns[spawn_counter]
 for (i = 0; i < array_length(spawn); i++) {
 	instance_create_layer(irandom_range(spr_width, room_width - spr_width), -sprite_height * 0.5, "Player", spawn[i])
 }
-if (random_spawn) {
+for (i = 0; i < random_spawn; i++) {
 	r = irandom(3)
 	if (r > 0) {	
 		switch (r) {
