@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_play","path":"objects/obj_play/obj_play.yy",},"order":3,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"sp_gav","path":"sprites/sp_gav/sp_gav.yy",},"order":0,},
     {"id":{"name":"sp_scheme_main_menu","path":"sprites/sp_scheme_main_menu/sp_scheme_main_menu.yy",},"order":13,},
@@ -9,6 +10,7 @@
     {"id":{"name":"obj_double_shot","path":"objects/obj_double_shot/obj_double_shot.yy",},"order":2,},
     {"id":{"name":"sp_ui_button_short","path":"sprites/sp_ui_button_short/sp_ui_button_short.yy",},"order":2,},
     {"id":{"name":"sp_triangles","path":"sprites/sp_triangles/sp_triangles.yy",},"order":2,},
+    {"id":{"name":"obj_music","path":"objects/obj_music/obj_music.yy",},"order":1,},
     {"id":{"name":"obj_player_bullet_wave","path":"objects/obj_player_bullet_wave/obj_player_bullet_wave.yy",},"order":7,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
     {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"order":11,},
@@ -35,8 +37,10 @@
     {"id":{"name":"sp_icon_waves","path":"sprites/sp_icon_waves/sp_icon_waves.yy",},"order":5,},
     {"id":{"name":"obj_fast_shot","path":"objects/obj_fast_shot/obj_fast_shot.yy",},"order":3,},
     {"id":{"name":"obj_gev","path":"objects/obj_gev/obj_gev.yy",},"order":6,},
+    {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":0,},
     {"id":{"name":"sp_atom","path":"sprites/sp_atom/sp_atom.yy",},"order":3,},
     {"id":{"name":"obj_electron","path":"objects/obj_electron/obj_electron.yy",},"order":2,},
+    {"id":{"name":"obj_name","path":"objects/obj_name/obj_name.yy",},"order":2,},
     {"id":{"name":"sp_ui_icon_music_on","path":"sprites/sp_ui_icon_music_on/sp_ui_icon_music_on.yy",},"order":5,},
     {"id":{"name":"sp_icon_add_elec","path":"sprites/sp_icon_add_elec/sp_icon_add_elec.yy",},"order":7,},
     {"id":{"name":"sp_scheme_in_battle","path":"sprites/sp_scheme_in_battle/sp_scheme_in_battle.yy",},"order":12,},
@@ -64,11 +68,12 @@
     {"id":{"name":"sp_electron","path":"sprites/sp_electron/sp_electron.yy",},"order":5,},
     {"id":{"name":"obj_plus_one_health","path":"objects/obj_plus_one_health/obj_plus_one_health.yy",},"order":1,},
     {"id":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"order":0,},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"sp_ui_window_menu","path":"sprites/sp_ui_window_menu/sp_ui_window_menu.yy",},"order":0,},
     {"id":{"name":"obj_both_sides","path":"objects/obj_both_sides/obj_both_sides.yy",},"order":4,},
     {"id":{"name":"prt_enemy","path":"objects/prt_enemy/prt_enemy.yy",},"order":0,},
     {"id":{"name":"obj_mouse_ferrum","path":"objects/obj_mouse_ferrum/obj_mouse_ferrum.yy",},"order":5,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -84,7 +89,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"Menu","path":"rooms/Menu/Menu.yy",},
+    {"name":"Game","path":"rooms/Game/Game.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -109,6 +115,8 @@
     {"folderPath":"folders/Sprites/enemies.yy","order":16,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/magnetic_filed.yy","order":17,"resourceVersion":"1.0","name":"magnetic_filed","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/ui.yy","order":19,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/ui.yy","order":15,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/ui/main_menu.yy","order":4,"resourceVersion":"1.0","name":"main_menu","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -116,7 +124,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"earthorbiter.ttf","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.0.529",
   },

@@ -28,9 +28,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_67D74299","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_51AE945C","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2731589F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_67D74299","path":"rooms/Game/Game.yy",},
+    {"name":"inst_51AE945C","path":"rooms/Game/Game.yy",},
+    {"name":"inst_2731589F","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -58,7 +58,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "Game",
   "tags": [],
   "resourceType": "GMRoom",
 }
