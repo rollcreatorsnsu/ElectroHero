@@ -86,6 +86,7 @@ part_type_size(p7, 0.5, 0.5, 0.01, 0);
 part_type_size(p7, 0.5, 0.5, 0.01, 0);
 global.ptNeutronStep = p7
 
+part_system_layer(global.partSystem, "Particles")
 //Взрыв электрона Можно штук 20 заспавнить там за раз
 p8 = part_type_create();
 //part_type_sprite(global.p1, sp_smoke_1, false, false, true)
@@ -97,5 +98,4 @@ part_type_size(p8, 1, 1, 0.01, 0);
 part_type_speed(p8, 2, 4, 0, 0);
 part_type_direction(p8,0,360,0,0);
 
-part_system_layer(global.partSystem, "Bullets")
 #endregion
