@@ -9,7 +9,7 @@ global.play_font = font_add("earthorbiter.ttf", 27, false, false, 32, 128)
 global.exit_font = font_add("earthorbiter.ttf", 18, false, false, 32, 128)
 global.score_font = font_add("earthorbiter.ttf", 16, false, false, 32, 128)
 global.volume = 1
-global.kek_sound = false
+global.kek_sound = true
 
 #region Particle Types
 
