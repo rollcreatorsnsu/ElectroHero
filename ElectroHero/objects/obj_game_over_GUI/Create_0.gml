@@ -1,6 +1,6 @@
 instance_deactivate_all(1)
 if (global.kek_sound) {
-//	audio_play_sound(sound_death_en, 1, false)
+	audio_play_sound(sound_troll_death, 1, false)
 } else {
 	audio_play_sound(sound_norm_game_over, 1, false)
 }

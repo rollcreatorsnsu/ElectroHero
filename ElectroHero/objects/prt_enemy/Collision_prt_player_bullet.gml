@@ -8,7 +8,7 @@ if (hp <= 0) {
 	if (global.kek_sound) {
 		audio_play_sound(sound_hit_en, 1, false)
 	} else {
-//		audio_play_sound(sound_norm_en_death, 1, false)
+		audio_play_sound(sound_norm_nit_en, 1, false)
 	}
 }
 flash_time = current_time
